@@ -1,7 +1,9 @@
 <template>
     <section class="carousel-section">
       <section>
+      <router-link to="/song">
         <mdb-carousel :interval="3000" :items="captionsCarousel" controlls captions indicators></mdb-carousel>
+        </router-link>
       </section>
     </section>
 </template>

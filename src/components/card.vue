@@ -24,10 +24,10 @@
 
 <mdb-card id="card">
     <mdb-view hover>
-        <a href="#!">
+        <router-link to="/song">
             <mdb-card-image src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%282%29.jpg" alt="Card image cap"></mdb-card-image>
             <mdb-mask flex-center waves overlay="white-slight"></mdb-mask>
-        </a>
+        </router-link>
     </mdb-view>
     <mdb-card-body id="card-body">
         <mdb-card-title id="title">Song</mdb-card-title>

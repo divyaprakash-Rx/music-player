@@ -4,20 +4,16 @@
 
 <mdb-navbar style="z-index: 0" dark color="transparent" scrolling>
     <!-- mdbNavbar brand -->
-    <mdb-navbar-brand tag="a" target="_blank" href="https://mdbootstrap.com/">
+    <mdb-navbar-brand tag="router-link" to="/">
         <img src="https://mdbootstrap.com/img/logo/mdb-transparent.png" height="30" alt />
     </mdb-navbar-brand>
     <mdb-navbar-toggler>
         <mdb-navbar-nav left>
-            <mdb-nav-item href="#" waves-fixed>Home</mdb-nav-item>
-            <mdb-nav-item href="#" waves-fixed>Features</mdb-nav-item>
-            <mdb-nav-item href="#" waves-fixed>Pricing</mdb-nav-item>
+            <mdb-nav-item href="#" waves-fixed>Demo</mdb-nav-item>
+            <mdb-nav-item href="#" waves-fixed>Demo</mdb-nav-item>
+            <mdb-nav-item href="#" waves-fixed>Demo</mdb-nav-item>
             <!-- mdbDropdown -->
         </mdb-navbar-nav>
-        <!-- Search form -->
-        <form>
-            <mdb-input type="text" class="text-white" placeholder="Search" aria-label="Search" label navInput waves waves-fixed />
-        </form>
     </mdb-navbar-toggler>
 </mdb-navbar>
 
@@ -28,7 +24,6 @@ import {
   mdbNavItem,
   mdbNavbarNav,
   mdbNavbarToggler,
-  mdbInput,
   mdbNavbarBrand,
 } from "mdbvue";
 
@@ -39,7 +34,6 @@ export default {
     mdbNavItem,
     mdbNavbarNav,
     mdbNavbarToggler,
-    mdbInput,
     mdbNavbarBrand,
   }
 };
