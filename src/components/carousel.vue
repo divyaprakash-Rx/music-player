@@ -30,8 +30,8 @@ export default {
           alt: "First Slide",
           caption: {
             animation: "slideInRight",
-            title: "Light mask",
-            text: "First text"
+            title: "Song 1",
+            text: "song 1"
           }
         },
         {
@@ -40,8 +40,8 @@ export default {
           mask: "black-strong",
           caption: {
             animation: "slideInRight",
-            title: "Strong mask",
-            text: "Second text"
+            title: "Song 2",
+            text: "Song 2"
           }
         },
         {
@@ -50,8 +50,8 @@ export default {
           mask: "black-strong",
           caption: {
             animation: "slideInRight",
-            title: "Slight mask",
-            text: "Third text"
+            title: "Song 3",
+            text: "Song 3"
           }
         }
       ]

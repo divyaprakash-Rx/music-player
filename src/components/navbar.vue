@@ -5,13 +5,13 @@
 <mdb-navbar style="z-index: 0" dark color="transparent" scrolling>
     <!-- mdbNavbar brand -->
     <mdb-navbar-brand tag="router-link" to="/">
-        <img src="https://mdbootstrap.com/img/logo/mdb-transparent.png" height="30" alt />
+  Music Player
     </mdb-navbar-brand>
     <mdb-navbar-toggler>
         <mdb-navbar-nav left>
             <mdb-nav-item href="#" waves-fixed>Demo</mdb-nav-item>
-            <mdb-nav-item href="#" waves-fixed>Demo</mdb-nav-item>
-            <mdb-nav-item href="#" waves-fixed>Demo</mdb-nav-item>
+            <!--<mdb-nav-item href="#" waves-fixed>Demo</mdb-nav-item>-->
+            <!--<mdb-nav-item href="#" waves-fixed>Demo</mdb-nav-item>-->
             <!-- mdbDropdown -->
         </mdb-navbar-nav>
     </mdb-navbar-toggler>
